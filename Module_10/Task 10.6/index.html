@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h2>Давайте соидинимся с сервером</h2>
+
+  <button class="btn j-btn-open">Открыть соединение</button>
+  <button class="btn j-btn-close">Закрыть соединение</button>
+
+  <h2>После чего можно будет отправлять сообщения</h2>
+
+  <div class="send_message">
+    <input id='usertext' class="UserText" type="text">
+    <button class="btn j-btn-send">Отправить сообщение</button>
+    <button class="btn j-btn-test">Отправить геолокацию</button>
+  </div>
+  
+  
+  <div class="chat" id="output">
+    <p id = "status"></p>
+    <a id = "map-link" target="_blank"></a>
+  </div>
+  
+</body>
+<script src="scrypt.js"></script>
